@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+</head>
+  <body>
+    <div class="container-lg mt-3 p-3" style="border: solid black; border-radius: 20px; font-size: 30px; font-weight: bolder;">관리자님                                           
+        <button type="button" class="btn btn-secondary" style="float: right;">재고 관리</button>
+        <button type="button" class="btn btn-secondary"style="float: right; margin-right:4px">회원 관리</button> 
+        <button type="button" class="btn btn-secondary"style="float: right; margin-right:4px">1:1문의</button>
+        <button type="button" class="btn btn-secondary"style="float: right; margin-right:4px">공지사항</button>
+    </div>
+    <div class="container-lg p-3" style="font-size: 20px;  font-weight: bolder;">재고관리
+        <button type="button" class="btn btn-primary  "style="float: right; ">상품 등록</button>
+    </div>
+    <hr class="one" style="border:solid 1px black">
+    <div class="article-list table-common con">
+        <table style=' height:500px;table-layout:fixed;'>
+            <thead>
+                <tr>
+                    <th scope="col">번호</th>
+                    <th scope="col">썸네일</th>
+                    <th scope="col">상품명</th>
+                    <th scope="col">카테고리</th>
+                    <th scope="col">가격</th>
+                    <th scope="col">재고</th>
+                    <th scope="col">관리</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>내용1</td>
+                    <td>내용2</td>
+                    <td>내용3</td>
+                    <td>내용4</td>
+                    <td>내용5</td>
+                    <td>내용6</td>
+                    <td><div class="d-flex justify-content-start"><button type="button" class="btn btn-secondary" style="float: left;">삭제</button><button type="button" class="btn btn-secondary" style="float:left; margin-left:5px">수정</button></div></td>
+                </tr>
+                <tr>
+                    <td>내용1</td>
+                    <td>내용2</td>
+                    <td>내용3</td>
+                    <td>내용4</td>
+                    <td>내용5</td>
+                    <td>내용6</td>
+                    <td><div class="d-flex justify-content-start"><button type="button" class="btn btn-secondary" style="float: left;">삭제</button><button type="button" class="btn btn-secondary" style="float:left; margin-left:5px">수정</button></div></td>
+                </tr>
+                <tr>
+                    <td>내용1</td>
+                    <td>내용2</td>
+                    <td>내용3</td>
+                    <td>내용4</td>
+                    <td>내용5</td>
+                    <td>내용6</td>
+                    <td><div class="d-flex justify-content-start"><button type="button" class="btn btn-secondary" style="float: left;">삭제</button><button type="button" class="btn btn-secondary" style="float:left; margin-left:5px">수정</button></div></td>
+                </tr>
+                <tr>
+                    <td>내용1</td>
+                    <td>내용2</td>
+                    <td>내용3</td>
+                    <td>내용4</td>
+                    <td>내용5</td>
+                    <td>내용6</td>
+                    <td><div class="d-flex justify-content-start"><button type="button" class="btn btn-secondary" style="float: left;">삭제</button><button type="button" class="btn btn-secondary" style="float:left; margin-left:5px">수정</button></div></td>
+                </tr>
+                <tr>
+                    <td>내용1</td>
+                    <td>내용2</td>
+                    <td>내용3</td>
+                    <td>내용4</td>
+                    <td>내용5</td>
+                    <td>내용6</td>
+                    <td><div class="d-flex justify-content-start"><button type="button" class="btn btn-secondary" style="float: left;">삭제</button><button type="button" class="btn btn-secondary" style="float:left; margin-left:5px">수정</button></div></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+<style>
+html {
+	font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 노말라이즈 */
+body, ul, li, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a:link {
+	color: lightblue;
+}
+
+/* 라이브러리 */
+.con {
+	margin: 0 auto;
+}
+
+.img-box>img {
+	width: 100%;
+	display: block;
+}
+
+.row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.cell {
+	float: left;
+	box-sizing: border-box;
+}
+
+.cell-right {
+	float: right;
+	box-sizing: border-box;
+}
+
+.margin-0-auto {
+	margin: 0 auto;
+}
+
+.block {
+	display: block;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.line-height-0-ch-only {
+	line-height: 10;
+}
+
+.line-height-0-ch-only>* {
+	line-height: normal;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute-left {
+	position: absolute;
+	left: 0;
+}
+
+.absolute-right {
+	position: absolute;
+	right: 0;
+}
+
+.absolute-middle {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* 커스텀 */
+/* 반응형 레이아웃 */
+.con {
+	max-width: 1300px;
+}
+
+.con-min-width {
+	min-width: 320px;
+}
+
+.top-menu a {
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+html, body { 
+	overflow-x: hidden;
+}
+
+.table-common>table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table-common .btn-box {
+	text-align:center;
+}
+
+.table-common>table th, .table-common>table td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.article-list table {
+    border:none;   
+    border-top:2px solid lightgray;
+    border-bottom:2px solid lightgray;
+}
+
+.article-list > table th, .article-list > table td {
+    border:none;
+}
+
+.article-list > table td {
+    border-bottom:1px solid lightgray;
+}
+
+.article-list > table thead {
+    border-bottom:2px solid lightgray;
+    background-color:#F5F5F5;
+}
+
+.article-detail {
+    border:2px solid lightgray;
+}
+
+.article-detail > table {
+    border:none;
+    width:calc(100% - 100px);
+}
+
+.article-detail > table th, .article-detail > table td {
+    border:none;
+}
+
+.article-detail > table tr:not(:last-child) {
+    border-bottom:1px solid lightgray;
+}
+
+.article-detail > table tr:not(.article-body), .article-detail > table tr:not(.article-body) > td{
+    height:20px;
+    font-size:0.8rem;
+}
+
+.article-detail > table tr.article-title > td {
+    height:40px;
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+.article-detail > table td:last-child {
+    padding-right:100px;
+}
+
+.article-detail > .article-writer {
+    width:100px;
+    height:102px;
+    background-color:lightgray;
+    border-bottom:1px solid lightgray;
+    text-align:center;
+}
+
+.article-detail > .article-writer .writer-icon {
+    margin:0 auto;
+    background-color:white;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+}
+
+.reply {
+    margin-top:20px;
+    border:2px solid lightgray;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+.reply-form {
+    padding:10px;
+}
+
+.reply-form > form input[type="text"] {
+    width:200px;
+}
+
+.reply-form > form textarea {
+    width:calc(100% - 100px);
+    min-height:40px;
+}
+
+.reply-form > form input[type="submit"] {
+    width:80px;
+    height:40px;
+    transform:translatey(-40%);
+}
+
+.reply-form > form > div:not(:last-child) {
+    margin-bottom:5px;
+}
+
+.reply-list > table {
+    border:none;
+}
+
+.reply-list > table th {
+    display:none;
+}
+
+.reply-list > table td {
+    border:none;
+}
+
+.reply-list > table tr:nth-child(2n+1) {
+    background-color:rgba(0,0,0,0.06);
+}
+
+.reply-list > table td:first-child {
+    font-weight:bold;
+}
+
+.reply-list > table td:first-child::after {
+    content:" : ";
+    font-weight:bold;
+}
+
+</style>

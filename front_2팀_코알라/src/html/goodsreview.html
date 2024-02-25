@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+</head>
+  <body>
+  
+    <div class="container-lg p-3 mb-3" style="border: solid 1px gray; border-radius: 5px; font-size: 30px; font-weight: bolder;">
+       <div class="row">
+        
+        <div class="col-md-2 ">
+         <p class="d-flex justify-content-center">상품</p>
+         <img src="https://d38cxpfv0ljg7q.cloudfront.net/admin_contents/detail/vIel-1680837983977-1.jpg" class="img-fluid" alt="..."> 
+        </div>
+        <div class="col-md-5 ">
+        <p class="d-flex justify-content-center">별점</p>
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F5110%2F2015%2F10%2F29%2Fkwstar_hero-100624509-large_99_20151030101011.png&type=a340" class="img-fluid" alt="..."> 
+        </div>
+        <div class="col-md-5 "> 
+           <p class="d-flex justify-content-center">포토이미지</p>
+           <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner" style="width:500px; height:260px;">
+              <div class="carousel-item active" >
+                <img src="../../../node-back/uploads/uploadGoods/lulu.jpg" class="d-block w-100 " alt="..." >
+              </div>
+              <div class="carousel-item">
+                <img src="../../../node-back/uploads/uploadGoods/lulu.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../../../node-back/uploads/uploadGoods/" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+           
+        </div>
+       </div>
+    </div>
+    <div class="container-lg  " style="border: solid gray; border-radius: 5px; font-size: 30px; font-weight: bolder;">
+        <div class="row ">
+            <div class="col-md-4">
+                <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle mb-3 mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="height: 40px; width: 100%">
+                      별점 선택
+                    </a>
+                  
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                      <li><a class="dropdown-item" href="#">4</a></li>
+                      <li><a class="dropdown-item" href="#">5</a></li>
+                    </ul>
+                  </div>
+            </div>
+            
+            </div>
+            <div class="input-group " style="height:400px">
+                <span class="input-group-text">상품 후기</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+             
+              <div class="input-group">
+                <span class="input-group-text mb-3" style="height: 40px;" >사진 등록</span>
+                <input type="file"  class="form-control" accept="image/png,image/jpeg" style="height:40px">
+                <button type="button" class="btn btn-secondary" style="background-color:#FF8A3D; height:100%; float:right">리뷰 작성</button>
+              </div>
+               
+              
+              
+        </div>
+    
+    </div>
+
+    
+          
+    
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
+<style>
+
+.dropdown-menu {
+  width: 100%; /* 또는 다른 너비 값 설정 가능 */
+}
+
+.dropdown-item {
+  width: 100%; /* 또는 다른 너비 값 설정 가능 */
+}
+
+
+
+
+
+
+
+
+</style>
